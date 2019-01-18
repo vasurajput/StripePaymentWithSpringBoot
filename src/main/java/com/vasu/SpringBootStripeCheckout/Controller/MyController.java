@@ -40,7 +40,7 @@ public class MyController {
     public String chargePayment(@RequestBody String payload) throws StripeException {
         System.out.println("payload is ");
         System.out.println(payload.substring(0, payload.length() - 1));
-        Stripe.apiKey = "sk_test_laQ9qaADYUrP1uLDb1EP56rK";
+        Stripe.apiKey = "your secret key comes here";
 
 // Token is created using Checkout or Elements!
 // Get the payment token ID submitted by the form:
